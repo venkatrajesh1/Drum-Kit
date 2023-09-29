@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align:  center;
+    background-color: #DBE2EF;
+    background: #CBF1F5 url("images/drum-set.png") fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    padding: 20px;
+    display: block;
+    font-size: 75px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3F72AF;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+button{
+    display: blocks;
+    margin: 10px;
+    font-size: 50px;
+    border-radius: 10px;
+    color: #3F72AF;
+    width: 150px;
+    height: 150px;
+    background-color: #ECF9FF;
+    font-weight: bold;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 5%;
+    color: #3F72AF;
+    font-size: 120%;
+}
+
+.name{
+    padding-left: 1px;
+    font-family: 'Caveat', cursive;
+}
+
+.pressed{
+    box-shadow: 0 3px 4px 0 black;
+    opacity: 0.5;
+}
